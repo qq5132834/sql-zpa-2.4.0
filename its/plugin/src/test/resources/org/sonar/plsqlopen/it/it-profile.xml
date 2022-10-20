@@ -1,0 +1,16 @@
+<profile>
+    <name>it-profile</name>
+    <language>plsqlopen</language>
+    <rules>
+        <rule>
+            <repositoryKey>plsql</repositoryKey>
+            <key>EmptyBlock</key>
+            <priority>MAJOR</priority>
+        </rule>
+        <rule>
+            <repositoryKey>my-rules</repositoryKey>
+            <key>ForbiddenDmlCheck</key>
+            <priority>MAJOR</priority>
+        </rule>
+    </rules>
+</profile>
