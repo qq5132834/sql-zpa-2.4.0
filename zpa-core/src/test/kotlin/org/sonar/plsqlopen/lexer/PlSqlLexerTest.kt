@@ -237,4 +237,11 @@ class PlSqlLexerTest {
 
         assertThat(node.getDescendants(PlSqlGrammar.NULL_STATEMENT).size, `is`(1))
     }
+
+    @Test
+    fun sqlAST(){
+        val p = PlSqlParser.create(PlSqlConfiguration(StandardCharsets.UTF_8, false))
+        val node = p.parse("select c1,c2,c3 from table")
+        System.out.println("hello sql")
+    }
 }
