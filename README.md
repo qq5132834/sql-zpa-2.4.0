@@ -1,4 +1,5 @@
 源代码地址： https://github.com/qq5132834/sql-zpa-2.4.0.git 
+说明：这是一个sonarqube的插件，用来分析oracle数据库的plsql语句。
 
 # Z PL/SQL Analyzer - ZPA
 
